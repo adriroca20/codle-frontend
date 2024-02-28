@@ -30,9 +30,13 @@ mkdir "$folder_name/40_presentation"
 # Create files inside the subfolders
 touch "$folder_name/00_model/$folder_name.contract.ts"
 touch "$folder_name/00_model/$folder_name.interface.ts"
+touch "$folder_name/00_model/index.ts"
 touch "$folder_name/10_infraestructure/$folder_name.call.ts"
 touch "$folder_name/10_infraestructure/$folder_name.state.ts"
+touch "$folder_name/10_infraestructure/index.ts"
 touch "$folder_name/20_abstraction/$folder_name.facade.ts"
+touch "$folder_name/20_abstraction/index.ts"
+mkdir "$folder_name/30_resolver/index.ts"
 
 # Check if the subfolder creation was successful
 if [ $? -ne 0 ]; then
