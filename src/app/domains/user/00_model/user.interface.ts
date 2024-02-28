@@ -1,4 +1,4 @@
-export interface IUSer{
+export interface IUser{
     userId:string;
     userName:string;
     mail:string;
